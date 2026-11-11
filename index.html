@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relatórios PMP — Parauapebas</title>
+<style>
+:root{--bg:#f4f6fa;--paper:#fff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;
+--blue:#2563eb;--green:#059669;--amber:#d97706;--red:#dc2626}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f8fafc,#eef2f8);
+color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,sans-serif;padding:28px 18px}
+.wrap{max-width:1120px;margin:0 auto}header{background:var(--paper);border:1px solid var(--line);
+border-radius:20px;padding:22px 24px;box-shadow:0 10px 30px rgba(15,23,42,.08);margin-bottom:22px;
+position:relative;overflow:hidden}header::before{content:"";position:absolute;inset:0 0 auto;height:4px;
+background:linear-gradient(90deg,var(--blue),#0891b2,#7c3aed)}
+h1{margin:4px 0 6px;font-size:32px}header p{margin:0;color:var(--muted)}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px;font-size:12px;color:var(--muted)}
+.pill{display:inline-block;font-size:10.5px;font-weight:800;border-radius:999px;padding:3px 8px;
+border:1px solid var(--line);background:#f8fafc;color:var(--muted)}
+.pill.ok{background:#f0fdf4;border-color:#bbf7d0;color:var(--green)}
+.pill.warn{background:#fffbeb;border-color:#fde68a;color:var(--amber)}
+.pill.bad{background:#fef2f2;border-color:#fecaca;color:var(--red)}
+.pill.muted{background:#f1f5f9;border-color:#cbd5e1;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:14px}
+a.card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);
+border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(15,23,42,.08);color:var(--ink);
+text-decoration:none;min-height:150px}a.card:hover{border-color:var(--blue)}
+.card-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card-top b{font-size:17px;line-height:1.25}a.card p{color:var(--muted);font-size:13px;margin:8px 0 0}
+.atualizado{margin-top:auto;padding-top:12px;color:var(--muted);font-size:11.5px}
+footer{margin-top:24px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:11.5px}
+</style></head><body><div class="wrap">
+<header><h1>Relatórios PMP — Parauapebas</h1>
+<p>Portal único dos painéis públicos. Atualização automática diária (~08:30).</p>
+<div class="meta"><span class="pill muted" id="pipeline">carregando…</span>
+<span>Status do portal: <b id="gerado">—</b></span></div></header>
+<div class="grid"><a class="card" data-site="dashboard" href="https://angelojordy-svg.github.io/analise-contas-pmp/" target="_blank" rel="noopener"><div class="card-top"><b>Dashboard PMP</b><span class="pill muted status">…</span></div><p>Contas públicas, receitas, despesas e FOPAG.</p><div class="atualizado">Atualizado: —</div></a><a class="card" data-site="painel" href="https://angelojordy-svg.github.io/painel-fiscal-parauapebas/" target="_blank" rel="noopener"><div class="card-top"><b>Painel Fiscal</b><span class="pill muted status">…</span></div><p>Série histórica, empenhos, fornecedores e PNCP.</p><div class="atualizado">Atualizado: —</div></a><a class="card" data-site="diario" href="https://angelojordy-svg.github.io/diario-parauapebas/" target="_blank" rel="noopener"><div class="card-top"><b>Diário Oficial</b><span class="pill muted status">…</span></div><p>Edições normais e extras, atos e busca.</p><div class="atualizado">Atualizado: —</div></a><a class="card" data-site="tesouraria" href="https://angelojordy-svg.github.io/tesouraria-parauapebas/" target="_blank" rel="noopener"><div class="card-top"><b>Tesouraria</b><span class="pill muted status">…</span></div><p>Caixa, prazo médio e valores em aberto por credor.</p><div class="atualizado">Atualizado: —</div></a><a class="card" data-site="resumo" href="https://angelojordy-svg.github.io/resumo-executivo-parauapebas/" target="_blank" rel="noopener"><div class="card-top"><b>Resumo Executivo PMP</b><span class="pill muted status">…</span></div><p>Panorama diário e edições anteriores.</p><div class="atualizado">Atualizado: —</div></a><a class="card" data-site="emendas" href="https://angelojordy-svg.github.io/emendas-parauapebas/" target="_blank" rel="noopener"><div class="card-top"><b>Emendas parlamentares</b><span class="pill muted status">…</span></div><p>Acompanhamento e execução das emendas impositivas.</p><div class="atualizado">Atualizado: —</div></a><a class="card" data-site="ppa_ods" href="https://angelojordy-svg.github.io/ppa-ods-parauapebas/" target="_blank" rel="noopener"><div class="card-top"><b>PPA + ODS</b><span class="pill muted status">…</span></div><p>PPA 2026–2029 e indicadores dos ODS.</p><div class="atualizado">Atualizado: —</div></a></div>
+<footer>Se um cartão estiver vermelho ou sem atualização, verifique o alerta no Telegram.
+Os dados são gerados a partir das fontes públicas (Portal da Transparência, Diário Oficial e Tesouraria).</footer>
+</div><script>
+const classes = {ok:'ok',warn:'warn',bad:'bad',muted:'muted'};
+fetch('status.json?t=' + Date.now()).then(r => r.json()).then(d => {
+  const p = document.getElementById('pipeline');
+  p.textContent = 'Pipeline: ' + (d.pipeline || '—');
+  p.className = 'pill ' + (classes[d.pipeline_classe] || 'muted');
+  document.getElementById('gerado').textContent = d.gerado_em || '—';
+  (d.sites || []).forEach(s => {
+    const card = document.querySelector('[data-site="' + s.id + '"]');
+    if (!card) return;
+    const st = card.querySelector('.status');
+    st.textContent = s.status || '—';
+    st.className = 'pill ' + (classes[s.classe] || 'muted') + ' status';
+    card.querySelector('.atualizado').textContent = 'Atualizado: ' + (s.atualizado_em || '—');
+  });
+}).catch(() => {
+  const p = document.getElementById('pipeline');
+  p.textContent = 'Pipeline: status indisponível';
+  p.className = 'pill bad';
+});
+</script></body></html>

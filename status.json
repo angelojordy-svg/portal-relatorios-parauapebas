@@ -1,0 +1,70 @@
+{
+ "gerado_em": "11/11/2026 11:07",
+ "pipeline": "ok",
+ "pipeline_classe": "ok",
+ "sites": [
+  {
+   "id": "dashboard",
+   "nome": "Dashboard PMP",
+   "descricao": "Contas públicas, receitas, despesas e FOPAG.",
+   "url": "https://angelojordy-svg.github.io/analise-contas-pmp/",
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "11/11/2026 08:18"
+  },
+  {
+   "id": "painel",
+   "nome": "Painel Fiscal",
+   "descricao": "Série histórica, empenhos, fornecedores e PNCP.",
+   "url": "https://angelojordy-svg.github.io/painel-fiscal-parauapebas/",
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "11/11/2026 08:26"
+  },
+  {
+   "id": "diario",
+   "nome": "Diário Oficial",
+   "descricao": "Edições normais e extras, atos e busca.",
+   "url": "https://angelojordy-svg.github.io/diario-parauapebas/",
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "11/11/2026 08:29"
+  },
+  {
+   "id": "tesouraria",
+   "nome": "Tesouraria",
+   "descricao": "Caixa, prazo médio e valores em aberto por credor.",
+   "url": "https://angelojordy-svg.github.io/tesouraria-parauapebas/",
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "11/11/2026 08:30"
+  },
+  {
+   "id": "resumo",
+   "nome": "Resumo Executivo PMP",
+   "descricao": "Panorama diário e edições anteriores.",
+   "url": "https://angelojordy-svg.github.io/resumo-executivo-parauapebas/",
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "11/11/2026 08:30"
+  },
+  {
+   "id": "emendas",
+   "nome": "Emendas parlamentares",
+   "descricao": "Acompanhamento e execução das emendas impositivas.",
+   "url": "https://angelojordy-svg.github.io/emendas-parauapebas/",
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "11/11/2026 08:26"
+  },
+  {
+   "id": "ppa_ods",
+   "nome": "PPA + ODS",
+   "descricao": "PPA 2026–2029 e indicadores dos ODS.",
+   "url": "https://angelojordy-svg.github.io/ppa-ods-parauapebas/",
+   "status": "manual",
+   "classe": "muted",
+   "atualizado_em": "15/10/2026 12:22"
+  }
+ ]
+}
