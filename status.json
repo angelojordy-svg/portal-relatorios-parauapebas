@@ -1,16 +1,16 @@
 {
- "gerado_em": "19/11/2026 08:28",
- "pipeline": "ok",
- "pipeline_classe": "ok",
+ "gerado_em": "23/11/2026 09:14",
+ "pipeline": "atenção",
+ "pipeline_classe": "warn",
  "sites": [
   {
    "id": "dashboard",
    "nome": "Dashboard PMP",
    "descricao": "Contas públicas, receitas, despesas e FOPAG.",
    "url": "https://angelojordy-svg.github.io/analise-contas-pmp/",
-   "status": "ok",
-   "classe": "ok",
-   "atualizado_em": "19/11/2026 08:14"
+   "status": "erro",
+   "classe": "bad",
+   "atualizado_em": "23/11/2026 08:57"
   },
   {
    "id": "painel",
@@ -19,7 +19,7 @@
    "url": "https://angelojordy-svg.github.io/painel-fiscal-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "19/11/2026 08:24"
+   "atualizado_em": "23/11/2026 09:08"
   },
   {
    "id": "diario",
@@ -28,16 +28,16 @@
    "url": "https://angelojordy-svg.github.io/diario-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "19/11/2026 08:26"
+   "atualizado_em": "23/11/2026 09:11"
   },
   {
    "id": "tesouraria",
    "nome": "Tesouraria",
    "descricao": "Caixa, prazo médio e valores em aberto por credor.",
    "url": "https://angelojordy-svg.github.io/tesouraria-parauapebas/",
-   "status": "ok",
-   "classe": "ok",
-   "atualizado_em": "19/11/2026 08:28"
+   "status": "erro",
+   "classe": "bad",
+   "atualizado_em": "23/11/2026 09:13"
   },
   {
    "id": "resumo",
@@ -46,16 +46,16 @@
    "url": "https://angelojordy-svg.github.io/resumo-executivo-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "19/11/2026 08:28"
+   "atualizado_em": "23/11/2026 09:14"
   },
   {
    "id": "emendas",
    "nome": "Emendas parlamentares",
    "descricao": "Acompanhamento e execução das emendas impositivas.",
    "url": "https://angelojordy-svg.github.io/emendas-parauapebas/",
-   "status": "ok",
-   "classe": "ok",
-   "atualizado_em": "19/11/2026 08:28"
+   "status": "não executado",
+   "classe": "warn",
+   "atualizado_em": "—"
   },
   {
    "id": "ppa_ods",
