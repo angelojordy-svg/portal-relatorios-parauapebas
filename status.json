@@ -1,25 +1,25 @@
 {
- "gerado_em": "24/11/2026 09:32",
- "pipeline": "atenção",
- "pipeline_classe": "warn",
+ "gerado_em": "25/11/2026 08:54",
+ "pipeline": "ok",
+ "pipeline_classe": "ok",
  "sites": [
   {
    "id": "dashboard",
    "nome": "Dashboard PMP",
    "descricao": "Contas públicas, receitas, despesas e FOPAG.",
    "url": "https://angelojordy-svg.github.io/analise-contas-pmp/",
-   "status": "erro",
-   "classe": "bad",
-   "atualizado_em": "24/11/2026 09:15"
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "25/11/2026 08:39"
   },
   {
    "id": "painel",
    "nome": "Painel Fiscal",
    "descricao": "Série histórica, empenhos, fornecedores e PNCP.",
    "url": "https://angelojordy-svg.github.io/painel-fiscal-parauapebas/",
-   "status": "erro",
-   "classe": "bad",
-   "atualizado_em": "24/11/2026 09:26"
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "25/11/2026 08:49"
   },
   {
    "id": "diario",
@@ -28,7 +28,7 @@
    "url": "https://angelojordy-svg.github.io/diario-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "24/11/2026 09:28"
+   "atualizado_em": "25/11/2026 08:52"
   },
   {
    "id": "tesouraria",
@@ -37,7 +37,7 @@
    "url": "https://angelojordy-svg.github.io/tesouraria-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "24/11/2026 09:32"
+   "atualizado_em": "25/11/2026 08:54"
   },
   {
    "id": "resumo",
@@ -46,7 +46,7 @@
    "url": "https://angelojordy-svg.github.io/resumo-executivo-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "24/11/2026 09:32"
+   "atualizado_em": "25/11/2026 08:54"
   },
   {
    "id": "emendas",
