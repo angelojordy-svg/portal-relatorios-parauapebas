@@ -1,5 +1,5 @@
 {
- "gerado_em": "25/11/2026 08:54",
+ "gerado_em": "26/11/2026 08:43",
  "pipeline": "ok",
  "pipeline_classe": "ok",
  "sites": [
@@ -10,7 +10,7 @@
    "url": "https://angelojordy-svg.github.io/analise-contas-pmp/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "25/11/2026 08:39"
+   "atualizado_em": "26/11/2026 08:33"
   },
   {
    "id": "painel",
@@ -19,7 +19,7 @@
    "url": "https://angelojordy-svg.github.io/painel-fiscal-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "25/11/2026 08:49"
+   "atualizado_em": "26/11/2026 08:39"
   },
   {
    "id": "diario",
@@ -28,7 +28,7 @@
    "url": "https://angelojordy-svg.github.io/diario-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "25/11/2026 08:52"
+   "atualizado_em": "26/11/2026 08:42"
   },
   {
    "id": "tesouraria",
@@ -37,7 +37,7 @@
    "url": "https://angelojordy-svg.github.io/tesouraria-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "25/11/2026 08:54"
+   "atualizado_em": "26/11/2026 08:42"
   },
   {
    "id": "resumo",
@@ -46,16 +46,16 @@
    "url": "https://angelojordy-svg.github.io/resumo-executivo-parauapebas/",
    "status": "ok",
    "classe": "ok",
-   "atualizado_em": "25/11/2026 08:54"
+   "atualizado_em": "26/11/2026 08:43"
   },
   {
    "id": "emendas",
    "nome": "Emendas parlamentares",
    "descricao": "Acompanhamento e execução das emendas impositivas.",
    "url": "https://angelojordy-svg.github.io/emendas-parauapebas/",
-   "status": "não executado",
-   "classe": "warn",
-   "atualizado_em": "—"
+   "status": "ok",
+   "classe": "ok",
+   "atualizado_em": "26/11/2026 08:43"
   },
   {
    "id": "ppa_ods",
